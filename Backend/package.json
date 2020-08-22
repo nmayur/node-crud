@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-crud-app",
+  "version": "1.0.0",
+  "description": "Basic CRUD application with nodejs mongodb expressjs",
+  "main": "server.js",
+  "scripts": {
+    "prod": "node server",
+    "watch": "nodemon server --ignore public/",
+    "start": "npm run watch"
+  },
+  "author": "Mayur Nalwala",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2"
+  }
+}

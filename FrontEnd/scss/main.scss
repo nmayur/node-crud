@@ -1,0 +1,18 @@
+.post_card {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 102, 255, 0.2);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 102, 255, 0.2);
+  box-shadow: 0px 0px 15px 0px rgba(0, 102, 255, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  border: none;
+  height: 100%;
+
+  .label{
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #5c5c5c;
+      letter-spacing: 1px;
+      font-weight: 800;
+  }
+}
